@@ -14,13 +14,12 @@ react + router + mobx + antd + i18n 详细 NPM 包 参见:`package.json`
 
 FE通用层设计
 -----------------
-![Image text](md-image/QQ20180612-102603.png)
+
 
 
 
 使用方法
 -----------------
-##git clone https://git.biss.com/bts/website.git
 
 
 ```
