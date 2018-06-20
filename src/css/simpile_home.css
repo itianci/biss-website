@@ -1,0 +1,483 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+ul,li{
+list-style: none;}
+.home_header{
+	width:100%;
+	height:56.37vw;
+	background:url(../img/banner.png) no-repeat center;
+	background-size:100% 100%;
+	overflow: hidden;
+}
+.header_content{
+	width: 87.84vw;
+    max-width: 1200px;
+	height:289px;
+	margin:14.64vw auto 0;
+	display: flex;
+	flex-direction: column;
+}
+.headH3 h7{
+	font-size:30px;
+	color:#fff;
+	line-height:30px;
+}
+.bissPng{
+	display: block;
+	width:334px;
+	height:36px;
+	margin-top:20px;
+}
+.head_spanDiv{
+	display: flex;
+	justify-content: space-between;
+	width:334px;
+}
+.head_span{
+	
+	font-size:18px;
+	color:#fff;
+	opacity: .7;
+	line-height:18px;
+	margin-top:18px;
+}
+.whiteXia{
+	width:32px;
+	height:6px;
+	display: block;
+	background:#fff;
+	margin-top:18px;
+}
+.joinUs{
+	display: block;
+	width:165px;
+	height:44px;
+	    background: -webkit-linear-gradient(left top,#7814fe,#5194f4);  
+        background: -o-linear-gradient(left top,#7814fe,#5194f4));  
+        background: -mos-linear-gradient(left top,#7814fe,#5194f4));  
+        background: -moz-linear-gradient(left top,#7814fe,#5194f4));  
+        background: linear-gradient(left top,#7814fe,#5194f4)); 
+	border:none;
+	outline: none;
+	border-radius:5px;
+	font-size:18px;
+	text-align: center;
+	line-height:44px;
+	margin-top:60px;
+	color:#fff;
+	cursor: pointer;
+}
+.aboutUs_box{
+	width:87.84vw;
+	max-width:1200px;
+	height:830px;
+	background:#fff;
+	margin:-10vw auto 0;
+	box-shadow:0 0 38px 0px rgba(151,157,161,.14);
+	border-radius:5px;
+	overflow: hidden;
+}
+.about_top{
+	max-width:470px;
+	height:90px;
+	background:url(../img/ABOUTUS.png) no-repeat center;
+	/*background:red;*/
+	margin:40px auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	
+}
+.about_top span{
+	font-size:24px;
+	color:#333333;
+	line-height:24px;
+	font-weight:500;
+}
+.orange_underline{
+	display: block;
+	width:23px;
+	height:6px;
+	background:#fe6f45;
+	margin:29px auto;
+}
+.jie_info{
+	max-width:823px;
+	padding:0 50px;
+	/*height:150px;*/
+	margin:0 auto;
+	/*background:red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.jie_info p{
+	font-size:16px;
+	color:#666;
+	line-height: 40px;
+}
+.ding_team{
+	max-width:830px;
+	padding:0 50px;
+	height:295px;
+	margin:85px auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.icon_ding_team1{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+.icon_ding_li{
+	width:203px;
+	height:118px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.icon_ding_li img{
+	width:80px;
+	height:80px;
+	display: block;
+}
+.icon_ding_li p{
+	font-size:16px;
+	color:#333333;
+	font-weight:600;
+}
+.nvestartner{
+	height:966px;
+	max-width:1200px;
+	border-bottom:2px solid #eef3f9;
+	overflow: hidden;
+	margin:0 auto;
+}
+.partnerImg{
+	max-width:607px;
+	height:330px;
+	display: block;
+	margin:95px auto 0;
+}
+.nvestartner_top{
+	max-width:436px;
+	height:90px;
+	background:url(../img/Partners.png) no-repeat center;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.nvestartner_top span{
+	font-size:24px;
+	font-weight: 500;
+	line-height:24px;
+	color:#333333;
+}
+.font_info_invest{
+	max-width:823px;
+	height:160px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+.font_info_invest p{
+	color:#666666;
+	font-size:16px;
+	line-height:40px;
+}
+.img_logo{
+	display: block;
+	margin:0 auto;
+	margin-top:35px;
+}
+.hot_job{
+	max-width:1082px;
+	min-height:500px;
+	/*background:red;*/
+	margin:0 auto 85px;
+	overflow: hidden;
+}
+.hotJobTitle{
+	width:180px;
+	height:88px;
+	background:url(../img/HOT.png) no-repeat center;
+	margin:80px auto 0;
+	position:relative;
+}
+.hotJobTitle span{
+	font-size:24px;
+	color:#333333;
+	font-weight: 500;
+	text-align: center;
+	line-height: 23px;
+	position:absolute;
+	left:41px;
+	top:63px;
+	z-index:10000;
+}
+.iconFire{
+	width:33px;
+	height:33px;
+	position:absolute;
+	left:137px;
+	top:46px;
+}
+.job_select_ul{
+	max-width:1022px;
+	height:32px;
+	display:flex;
+	justify-content: space-around;
+	padding:25px 150px;
+	margin:0 auto;
+}
+.job_select_ul li{
+	display: block;
+	/*padding:7px 13px;*/
+	width:140px;
+	text-align: center;
+	border:1px solid #999999;
+	font-size:15px;
+	line-height: 31px;
+	color:#999999;
+	cursor: pointer;
+}
+.job_select_ul li:nth-child(2){
+	width:160px;
+}
+.job_select_ul li:hover{
+	/*background:#666666;*/
+	border:1px solid #666666;
+	color:#666666;
+}
+.job_select_ul_child{
+	max-width:1022px;
+	height:588px;
+	margin-top:50px;
+	/*background:#ccc;*/
+	padding:0 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.job_select_ul_child li{
+	width:47.93%;
+	height:582px;
+	border-radius:7px;
+	box-shadow:0 0 43px 0px rgba(162,162,184,.2);
+}
+.blue_tiao{
+	height:8px;
+	width:100%;
+	background:#0f90ff;
+	border-radius:7px 7px 0 0;
+	display: block;
+}
+.jobIconFont_wages{
+	padding:45px 40px;
+	display: flex;
+}
+.jobIconFont_wages img{
+	width:54px;
+	height:54px;
+}
+.wagesContent{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left:20px;
+	height:55px;
+}
+.wagesName{
+	font-size:20px;
+	color:#001f30;
+	font-weight:600;
+	line-height: 20px;
+}
+.wages{
+	font-size:23px;
+	line-height:23px;
+	font-weight:700;
+	color:#0187ff;
+}
+.postDuties{
+	padding:0 2.93vw;
+	
+}
+.postDuties_p{
+	display: flex;
+	align-items: center;
+	margin-bottom:23px;
+}
+.sircleDian{
+	
+	width:5px;
+	height:5px;
+	border-radius:50%;
+	background:#0f90ff;
+}
+.postDuties_p h5{
+	font-size:14px;
+	margin-left:10px;
+	line-height:14px;
+	opacity: .8;
+}
+.p_all{
+	font-size:12px;
+	line-height:12px;
+	opacity: .8;
+	margin-top:10px;
+}
+.resumeelivery{
+	max-width:363px;
+	height:54px;
+	background:#faac25;
+	margin:60px auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.resumeelivery h5{
+	color:#fafbfd;
+	font-size:14px;
+	opacity: .8;
+}
+.resumeelivery span{
+	color:#fafbfd;
+	font-size:14px;
+	opacity: .8;
+	margin-left:10px;
+	font-weight:600;
+}
+.workingPlace{
+	width:126px;
+	margin:26px auto 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.workingPlace h5,span{
+	font-size:13px;
+	color:#999999;
+	opacity: .8;
+	font-weight:600;
+}
+.workingPlace span{
+	margin-left:-10px;
+}
+.reservationQuota{
+	height:360px;
+	width:100%;
+	overflow: hidden;
+	background:url(../img/yuyueming.png) no-repeat center;
+	background-size:cover;
+}
+.footer{
+	height:80px;
+	width:100%;
+	text-align: center;
+	line-height: 80px;
+	font-size:12px;
+	color:#999;
+	opacity: .5;
+}
+.reservation_h5{
+	font-size:32px;
+	color:#fff;
+	margin:60px auto 20px;
+	text-align: center;
+	display: block;
+}
+.reservation_p{
+	font-size:20px;
+	text-align: center;
+	color:#aba0c3;
+	opacity: .8;
+}
+.submitEmail{
+	max-width:590px;
+	height:46px;
+	margin:82px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.submitEmail input{
+	display: block;
+	max-width:340px;
+	height:46px;
+	background:#fff;
+	border-radius:23px;
+	border:none;
+	outline: none;
+	padding-left:40px;
+}
+.submitEmail button{
+	width:172px;
+	height:46px;
+	border-radius:23px;
+	background: -webkit-linear-gradient(left top,#3972f2,#2b9fe5);  
+        background: -o-linear-gradient(left top,#3972f2,#2b9fe5));  
+        background: -mos-linear-gradient(left top,#3972f2,#2b9fe5));  
+        background: -moz-linear-gradient(left top,#3972f2,#2b9fe5));  
+        background: linear-gradient(left top,#3972f2,#2b9fe5)); 
+	font-size:13px;
+	color:#fff;
+	text-align: center;
+	line-height:46px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	opacity: .9;
+}
+.active{
+	background:#333333;
+	color:#ffffff !important;
+	border:1px solid #333333 !important;
+}
+.gongErPng{
+	display: block;
+	width:170px;
+	height:170px;
+	margin:45px auto 0;
+	padding:7px;
+	border:1px solid rgba(255,255,255,.3);
+}
+.saoMiaoDiv{
+	width:120px;
+	height:24px;
+	margin:16px auto 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.saoMiaoDiv img{
+	display: block;
+	width:30px;
+	height:30px;
+	
+}
+.saoMiaoDiv p{
+	font-size: 16px;
+	color:#fff;
+	/*font-weight:600;*/
+	opacity: .7;
+}
+.erWeiMp{
+	font-size: 16px;
+	color:#fff;
+	/*font-weight:600;*/
+	opacity: .7;
+	text-align: center;
+	line-height: 18px;
+	margin-top:28px;
+}

@@ -1,0 +1,145 @@
+.register{
+	width:100%;
+	height:769px;
+	background:#F5F7FC;
+	overflow: hidden;
+}
+.register_content{
+	width:400px;
+	height:520px;
+	background: #FFFFFF;
+	border: 1px solid #E5EFF6;
+	border-radius: 6px;
+	margin:120px auto 0;
+	overflow: hidden;
+}
+.rigister_logo{
+	opacity: 0.4;
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	color: #A8B7C7;
+	line-height: 36px;
+	display: block;
+	margin:26px 0 0 23px;
+}
+.register_title{
+	display: block;
+	width:40px;
+	height:30px;
+	font-size: 20px;
+color: #061C3F;
+line-height: 30px;
+	margin:-18px auto 0;
+	
+}
+.register_title_label{
+	width:246px;
+	height:18px;
+	/*background:red;*/
+	margin-top:10px;
+	padding:0 77px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.register_title_label_info{
+	
+	font-size: 12px;
+	color: #54698D;
+	line-height: 18px;
+}
+.register_whiffletree{
+	width:40px;
+	height:1px;
+	background: #E0E5EE;
+}
+.register_inputs{
+	width:300px;
+	height:180px;
+	/*background:red;*/
+	margin:30px auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.register_inputs li{
+	width:290px;
+	height:20px;
+	padding:12px 0 12px 10px;
+	border-bottom:1px solid #E0E5EE;
+}
+.register_inputs li input{
+	width:280px;
+	height:20px;
+	border:none;
+	outline: none;
+	font-size: 14px;
+	color: #A8B7C7;
+	line-height: 20px;
+}
+.register_checkbox{
+	width:300px;
+	height:18px;
+	margin:36px auto 40px;
+	/*background:red;*/
+	display: flex;
+}
+.register_checkbox .noCheckbox{
+	width:14px;
+	height:14px;
+	border: 1px solid #3865FF;
+	border-radius: 2px;
+	margin-right:6px;
+	cursor: pointer;
+}
+.register_checkbox span{
+	font-size: 12px;
+color: #7785A0;;
+line-height: 18px;
+}
+.register_checkbox a{
+	font-size: 12px;
+color: #5F82F6 ;
+line-height: 18px;
+cursor: pointer;
+}
+.register_button{
+	display: block;
+	width:300px;
+	height:42px;
+	background: #D8DDE6;
+	border-radius: 2px;
+	border:none;
+	outline: none;
+	margin:0 auto;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.register_jump{
+	width:112px;
+	height:20px;
+	margin:20px auto 0;
+}
+.register_jump span{
+	font-size: 14px;
+color: #7785A0;;
+}
+.register_jump a{
+	font-size: 14px;
+color: #5F82F6;;
+line-height: 20px;
+cursor: pointer;
+}
+.register_submit{
+	cursor: pointer;
+	background:#3865FF ;
+}
+.registerInput{
+	position:relative;
+}
+.registerInput .icon-e90e {
+	
+	position: absolute;
+		right:10px;
+		cursor: pointer;
+}

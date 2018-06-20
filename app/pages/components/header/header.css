@@ -1,0 +1,151 @@
+ul{
+	margin-bottom:0;
+}
+.Header{
+	width:100%;
+	height:60px;
+	background: #252333;
+	overflow: hidden;
+}
+.Header_content{
+	min-width:1000px;
+	height:60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 80px;
+	overflow: hidden;
+}
+.header_content_left{
+	width:544px;
+	height:20px;
+/*	background:red;*/
+}
+.header_content_right{
+	width:390px;
+	height:26px;
+	/*background:green;*/
+}
+.header_label_list{
+	width:544px;
+	height:20px;
+	display: flex;
+	justify-content: space-between;
+}
+.header_label_list li a{
+	font-size: 14px;
+	color: #999999;
+	line-height: 20px;
+	cursor: pointer;
+}
+.header_label_list li a:hover{
+	color:#ffffff;
+}
+.header_content_right_nologin{
+	width:262px;
+	height:26px;
+	display: flex;
+	align-items: center;
+	float:right;
+	
+}
+.header_content_right_login{
+	width:390px;
+	height:26px;
+	display: flex;
+	align-items: center;
+	float:right;
+	/*display: none;*/
+}
+.login_registe_button{
+	width:132px;
+	height:26px;
+	display: flex;
+	line-height: 26px;
+	justify-content: space-between;
+	/*display: none;*/
+}
+.login_registe_button li {
+	text-align: center;
+	width:56px;
+	height:26px;
+	cursor: pointer;
+	
+}
+.login_registe_button li a{
+	display: block;
+	width:56px;
+	height:26px;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 26px;
+	
+}
+.login_registe_button li:hover{
+	text-align: center;
+	width:56px;
+	height:26px;
+	background: #516ADE;
+	border-radius: 2px;
+	
+}
+.vertic_line{
+	width:1px;
+	height:16px;
+	background:#999999;
+	margin:0 24px;
+}
+.vertic_lines{
+	width:1px;
+	height:16px;
+	background:#999999;
+	margin:0 16px;
+}
+.i18n_international{
+	font-size: 14px;
+color: #FFFFFF;
+line-height: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:80px;
+cursor: pointer;
+}
+.i18n_international i{
+	-webkit-transform:scale(0.6);
+	-moz-transform:scale(0.6);
+	-ms-transform:scale(0.6);
+	-o-transform:scale(.6); 
+	display:inline-block;
+}
+.noLogin_title{
+	height:30px;
+	width:277px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.noLogin_title li{
+	width:54px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.noLogin_title li:nth-child(3){
+	width:120px;
+}
+.noLogin_title li i{
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(0.6);
+	-ms-transform:scale(0.6);
+	-o-transform:scale(.6); 
+	display:inline-block;
+}
+.noLogin_title li span{
+	font-size: 14px;
+color: #E0E5EE;
+}
+/*.caret-up{
+	font-size: 20px;
+	color:#000;
+}*/

@@ -1,0 +1,86 @@
+.registerEmail{
+	height:849px;
+	width:100%;
+	background:#F5F7FC;
+	overflow: hidden;
+}
+.registerEmail_content{
+	width:400px;
+	height:277px;
+	margin:188px auto 0;
+}
+.registerEmail_content_title{
+	
+	font-size: 24px;
+	color: #061C3F;
+	line-height: 36px;
+}
+.registerEmail_content_info{
+	
+	font-size: 16px;
+	color: #54698D;
+	line-height: 20px;
+	margin-top:8px;
+}
+.registerEmail_content_info strong{
+	font-family: Helvetica-Bold;
+font-size: 16px;
+color: #060000;
+line-height: 20px;
+}
+.registerEmail_content_sendCode{
+	height:20px;
+	width:380px;
+	padding:12px 10px;
+	border-bottom:1px solid #D8DDE6;
+	display: flex;
+	justify-content: space-between;
+	margin-top:48px;
+}
+.registerEmail_content_sendCode input{
+	border:none;
+	outline: none;
+	background:none;
+	width:200px;
+	display: inline-block;
+	height:20px;
+}
+::-webkit-input-placeholder { 
+   font-size: 14px;
+	color: #A8B7C7;
+	line-height: 20px;
+}
+:-moz-placeholder { 
+    font-size: 14px;
+	color: #A8B7C7;
+	line-height: 20px;
+}
+::-moz-placeholder {
+    font-size: 14px;
+	color: #A8B7C7;
+	line-height: 20px;
+}
+:-ms-input-placeholder {
+    font-size: 14px;
+	color: #A8B7C7;
+	line-height: 20px;
+}
+.registerEmail_content_sendCode span{
+	font-size: 14px;
+	color: #061C3F;
+	line-height: 20px;
+	cursor: pointer;
+	
+}
+.register_finished_button{
+	margin-top:60px;
+	width:400px;
+	height:40px;
+	background: #516ADE;
+	border-radius: 2px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	color: #FFFFFF;
+}

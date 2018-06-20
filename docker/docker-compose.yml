@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  website:
+    image: docker.biss.com/website:1.0
+    restart: always
+    ports:
+      - "80:80"

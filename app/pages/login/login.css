@@ -1,0 +1,140 @@
+
+.login{
+	height:889px;
+	flex:1 0 auto;
+	width:100%;
+	background:#F5F7FC;
+	overflow: hidden;
+}
+.login_content{
+	width:410px;
+	height:520px;
+	background: #FFFFFF;
+	border: 1px solid #E0E5EE;
+	border-radius: 4px;
+	margin:120px auto 0;
+}
+.login_logo{
+padding:21px 0 0 28px;
+display: block;
+opacity: 0.4;
+font-family: PingFangSC-Regular;
+font-size: 20px;
+color: #A8B7C7;
+line-height: 36px;	
+}
+.login_title{
+	display: block;
+	font-size: 24px;
+color: #16325C;
+line-height: 36px;
+text-align: center;
+}
+.login_inputs{
+	height:110px;
+	width:300px;
+	margin: 48px auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.login_inputs li{
+	width:280px;
+	height:20px;
+	line-height: 20px;
+	border-bottom: 1px solid #D8DDE6;
+	padding:12px 10px;
+}
+.login_inputs li input{
+	width:280px;
+	height:20px;
+	border:none;
+	outline: none;
+	font-size: 14px;
+	color: #A8B7C7;
+	line-height: 20px;
+}
+.login_button{
+	display: block;
+	width:300px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	background: #516ADE;
+border-radius: 2px;
+font-size: 14px;
+color: #FFFFFF;
+border:none;
+outline: none;
+margin:114px auto 0;
+cursor:pointer;
+}
+.login_footer{
+	width:300px;
+	height:20px;
+	margin:12px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.login_footer li{
+	cursor: pointer;
+}
+.login_footer li:first-child a{
+	font-size: 14px;
+	display: block;
+color: #516ADE;
+}
+.login_footer li:last-child{
+	font-size: 14px;
+color: #A8B7C7;
+}
+.loginInput_pwd{
+	position: relative;
+}
+.loginInput_pwd i{
+	position: absolute;
+	right:10px;
+	cursor: pointer;
+	/*visibility: inherit;*/
+}
+.pwdShow{
+	visibility: hidden;
+}
+.pwdHide{
+	visibility:visible;
+}
+.help-block{
+	display: block;
+	padding-left:10px;
+	padding-top:6px;
+	font-size: 12px;
+	color: #E55541;
+	line-height: 18px;
+}
+.activeColor{
+	border-bottom:1px solid  #16325C !important;
+}
+.activeColor input{
+	color:#061C3F !important;
+}
+.nomalColor{
+	border-bottom:1px solid  #D8DDE6;
+}
+.ant-btn{
+	padding:0;
+}
+.ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline):not(.ant-btn-icon-only){
+	padding:0;
+}
+.ant-btn:focus, .ant-btn:hover {
+     background: #516ADE; 
+     color:#fff;
+    text-decoration: none;
+}
+.ant-btn.active, .ant-btn:active, .ant-btn:focus, .ant-btn:hover{
+	background: #516ADE;
+	text-decoration: none;
+}
+.ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline):not(.ant-btn-icon-only) .anticon{
+	margin-left:0;
+}

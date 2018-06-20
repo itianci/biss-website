@@ -1,0 +1,17 @@
+*{    
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+    font-family: PingFangSC-Regular;
+    height:100%;
+}
+*,:after, :before{
+	box-sizing:content-box
+}
